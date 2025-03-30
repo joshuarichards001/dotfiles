@@ -13,6 +13,7 @@ brew bundle install
 # Set up stow symlinks
 echo "Setting up stow symlinks..."
 stow --adopt -d dotfiles -t ~ zsh git
+git restore .
 
 # Setup NextDNS
 echo "Setting up NextDNS..."
@@ -20,3 +21,7 @@ sudo nextdns install \
   -config f1cabb \
   -report-client-info \
   -auto-activate
+
+# Make dev directory
+echo "Creating dev directory..."
+mkdir ~/dev
