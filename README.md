@@ -1,8 +1,8 @@
 # Restore Instructions
 
 1. `xcode-select --install`
-2. `git clone https://github.com/joshuarichards001/dotfiles.git ~/dev/.dotfiles`
-3. `cd ~/dev/.dotfiles`
+2. `git clone https://github.com/joshuarichards001/dotfiles.git ~/.dotfiles`
+3. `cd ~/.dotfiles`
 4. [`./setup.sh`](setup.sh)
 5. Restart computer.
 6. Setup up iCloud and allow files to sync before setting up dependent applications.
